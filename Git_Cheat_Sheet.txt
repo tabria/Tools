@@ -240,6 +240,8 @@ Merging origin with master after fetch:
 	$ git merge origin/master
 Update origin from remote repo and merge origin with master :
 	$ git pull
+Merging unrelated files when pulling from remote repository :
+	$ git pull origin [branch_name] --allow-unrelated-histories 
 Checking remote branch - create non tracking local branch from the remote branch
 	$ git branch [name] [origin/non_tracking or HEAD or SHA-1]
 Delete the non-tracking branch :
