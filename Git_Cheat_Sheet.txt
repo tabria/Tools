@@ -42,6 +42,9 @@ Show list with current configurations with location:
 	$ git config --list --show-origin
 Open .gitconfig (unix style):
 	$ cat .gitconfig
+Config git to use longpaths for filenames:
+	$ git config --system core.longpaths true
+
 
 CREATE REPOSITORY
 Start a new repository:
