@@ -40,6 +40,7 @@ $	-  End of string/line.
 \Z	-  End of string, never end of line.	
 \b	-  Word boundary (start/end of word).
 \B	-  Not a word boundary.
+\Q...\E -  Everything between \Q and \E is escaped - ESCAPING SPECIAL CHARACTERS
 
 	Backreference
 \1 through \9	 -  Backreference for position 1 to 9. This is reference not to the expression, but to the 
